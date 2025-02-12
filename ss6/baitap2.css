@@ -1,0 +1,19 @@
+.tablehead{
+    font-weight: bold;
+}
+.button{
+    text-align: center;
+    width: 100%;
+    background-color: #007bff ;
+    color: white;
+    border-radius: 5%;
+    padding: 2%;
+}
+h2 {
+    text-align: center;
+}
+table{
+    border: 1px solid black;
+    padding: 1%;
+    border-radius: 5%;
+}

@@ -1,0 +1,21 @@
+.header{
+    background-color: #4caf50;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.table2{
+    width: 50%;
+    background-color: #9a999934;
+    border: 1px solid gray;
+}
+.sidebar{
+    margin-bottom: 450px;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.814);
+    line-height: 50px;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+img{
+    border-radius: 50%;
+    border: 3px solid black;
+}
+caption{
+    text-align: left;
+}
+.button{
+    text-align: right;
+    
+}
+*{
+    text-align: center;
+}
+button{
+
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.button2{
+    background-color: #4caf50;
+    padding: 10px;
+    border-radius: 10%;
+}
+.table1{
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+}
+.text{
+    font-weight: bold;
+}
+.table2{
+    width: 100%;
+    background-color: #f0f0f0;
+}
+.body1{
+    padding: 70px;
+    background-color: #72717124;
+}
+.body{
+    width: 100%;
+    line-height: 60px;
+}
+.tilteproject{
+    text-align: left;
+}
+.projects{
+    border-radius: 5px;
+    text-align: center;
+    
+    background-color: rgba(79, 77, 77, 0.256);
+    color: rgb(0, 0, 0);
+    width: 25%;
+    line-height: 50px;
+}
+.footer{
+
+    background-color: #333;
+    line-height: 30px;
+    color: white;
+}
+.contact{
+   text-align: center;
+}
