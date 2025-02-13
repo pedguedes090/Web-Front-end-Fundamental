@@ -1,0 +1,16 @@
+.container{
+    position: relative;
+    
+   
+}
+
+.text-img{
+    position: absolute;
+    bottom: -20px;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.066), rgb(0, 0, 0)); 
+}
+.head{
+    border-left: 5px solid rgb(255, 166, 0);
+}
+
