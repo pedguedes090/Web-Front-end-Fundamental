@@ -1,0 +1,15 @@
+
+.table{
+    text-align: center;
+    border-collapse: collapse;
+}
+button{
+    background-color: #4caf4f00;
+}
+p{
+    color: rgba(78, 77, 77, 0.784);
+}
+.text-time{
+    color: rgba(158, 156, 154, 0.636);
+    font-size: 90%;
+}

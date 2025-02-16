@@ -1,0 +1,26 @@
+
+*{
+    background-color: rgba(190, 188, 188, 0.032);
+    text-align: center;
+}
+h2{
+    color: grey;
+}
+p{
+    color: gray;
+}
+.download{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #4696e5;
+    border-radius: 10%;  
+    border: none;  
+}
+.learn{
+    margin: 20px;
+    padding: 10px;
+    color: gray;
+    background-color: #fcfcfc00;
+    border-radius: 10%;    
+}

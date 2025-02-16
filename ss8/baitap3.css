@@ -1,0 +1,23 @@
+h2{
+    border-bottom: 3px solid orange;
+    width: 200px;
+}
+.line-doc{
+    border-left: 3px solid rgba(110, 109, 109, 0.466);
+    height: 380px;
+    margin: 20px;
+}
+button{
+    background-color: #4caf4f00;
+    padding: 10px;
+    border-radius: 10%;
+    border: 3px solid #f77c01;
+    color: #f77c01;
+    width: 85px;
+}
+p{
+    color: rgba(121, 121, 121, 0.762);
+}
+img{
+    border-radius: 5%;
+}

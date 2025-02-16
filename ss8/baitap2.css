@@ -1,0 +1,24 @@
+table{
+    background-color: #514761;
+    color: white;
+    
+}
+input{
+    background-color: #514761;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+textarea{
+    width: 341px;
+    height: 88px;
+    background-color: #514761;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+    padding: 15px;
+    border-radius: 8%;
+    background-color: white;
+}
