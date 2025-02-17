@@ -1,0 +1,24 @@
+.head{
+    height: 10vh;
+    background-color: rgb(42, 120, 255);
+}
+.slidebar{
+    width: 200px;
+    height: 700px;
+    background-color: rgb(17, 162, 51);
+}
+.container{
+    display: flex;
+    align-content: start;
+}
+.content{
+    flex: 1;
+    background-color: rgb(255, 123, 0);
+}
+.footer{
+    background-color: rgb(184, 5, 255);
+    height: 10vh;
+}
+*{
+    color: white;
+}

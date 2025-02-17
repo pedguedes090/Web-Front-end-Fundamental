@@ -1,0 +1,19 @@
+.container{
+    height: 230px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 180, 180);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.chill{
+    padding: 5px;
+    width: 19%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
