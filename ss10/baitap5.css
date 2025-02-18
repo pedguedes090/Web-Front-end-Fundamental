@@ -1,0 +1,36 @@
+.content{
+    display: flex;
+    flex-direction: column;
+
+}
+.line{
+    height: 2px;
+    width: 800px;
+    background-color: white;
+}
+.main{
+    display: flex;
+}
+.img{
+    margin: 10px;
+    margin-top: 25px;
+}
+img{
+    border-radius: 5px;
+}
+button{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(20, 40, 80);
+    color: white;
+}
+.container{
+    width: 50%;
+    background-color: rgb(186, 186, 186);    
+}
+.footer{
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 65px;
+    font-size: 40px;
+}
