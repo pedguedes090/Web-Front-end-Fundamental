@@ -1,0 +1,62 @@
+header{
+    background-color: red;
+    height: 10vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    margin-top: 10px;
+    justify-content: center;
+}
+.content1{
+    width: 18%;
+    background-color: forestgreen;
+    border-radius: 3%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.content2{
+    width: 60%;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-right: 10px ;
+    padding-top: 10px;
+}
+.content3{
+    width: 18%;
+    background-color: violet;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+footer{
+    background-color: blue;
+    height: 10vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+@media screen and (max-width: 1024px){
+    main{
+        flex-direction: column;
+        height: auto;
+    }
+    .content1, .content2, .content3{
+        width: 100%;
+        
+    }
+    .content1, .content3{
+        height: 10vh;        
+    }
+    .content2{
+        height: 60vh;
+    }
+}
