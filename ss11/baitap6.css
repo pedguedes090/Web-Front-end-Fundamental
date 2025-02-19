@@ -52,9 +52,9 @@
     .container{
         display: flex;
         flex-direction: column; 
-        main#header{order: 1;}
-        main#body{order: 3;}
-        main#footer{order: 2;}
+        div#header{order: 1;}
+        div#body{order: 3;}
+        div#footer{order: 2;}
     }
     .body2{
         width: 50%;
