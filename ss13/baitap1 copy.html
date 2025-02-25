@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -97,3 +98,104 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furniture Landing Page</title>
+  <!-- Link CSS Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    /* Hero Section */
+    .hero-section {
+      position: relative; /* Để có thể dùng position absolute cho ảnh mũi tên */
+      text-align: center;
+      padding: 80px 20px;
+      background: #fff;
+    }
+    .hero-section {
+      position: relative;  /* Quan trọng: cho phép search bar, mũi tên... đặt tuyệt đối bên trong */
+      text-align: center;
+      padding: 40px 20px;
+      background: #fff;
+    }
+    .hero-section p {
+      color: #777;
+      margin-bottom: 30px;
+    }
+
+    /* Ảnh mũi tên */
+    .arrow-decor {
+      position: absolute; 
+      /* tuỳ chỉnh toạ độ để mũi tên chỉ vào thanh search
+         ví dụ top = 140px, left = 45%, tuỳ giao diện thật */
+      top: 140px; 
+      left: 10%; 
+      width: 300px; /* kích thước ảnh mũi tên */
+      z-index: 1; /* để ảnh nằm dưới thanh tìm kiếm thì z-index nhỏ hơn thanh tìm kiếm */
+      opacity: 0.8; /* độ trong suốt, tuỳ chọn */
+      pointer-events: none; /* không bắt sự kiện chuột, tuỳ chọn */
+      transform: rotate(15deg); /* xoay nhẹ nếu cần */
+    }
+
+    /* Search Bar */
+    .search-bar {
+      position: absolute;  
+      /* Ví dụ: canh giữa ảnh theo chiều ngang, ở khoảng 40% chiều cao của ảnh */
+      top: 40%;  
+      left: 50%;
+      transform: translate(-50%, -50%); 
+      z-index: 2;  
+      width: 60%;
+      max-width: 600px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 50px;
+      overflow: hidden;
+      background-color: #fff; /* Nền trắng để nhìn rõ, có thể thay đổi */
+    }
+
+    /* Ảnh Furniture */
+    .hero-section .hero-image {
+      width: 100%;
+      max-width: 900px;
+      border-radius: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero-section">
+    <!-- Ảnh mũi tên -->
+    <img src="./img/Sketch-annotation-element-stroke-line-arrow-spiral-down-5.png" alt="Arrow Decor" class="arrow-decor">
+
+    <h1>Discover Furniture With <br> High Quality Wood ✨</h1>
+    <p>
+      Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. <br> 
+      Purus parturient viverra nunc, tortor sit laoreet. Quam tincidunt aliquam adipiscing tempor.
+    </p>
+
+    <div class="search-bar">
+        <form class="d-flex">
+          <input class="form-control" type="text" placeholder="Search property">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+      </div>
+    
+
+    <!-- Ảnh chính -->
+    <img src="./img/Rectangle 2.png" alt="Furniture Image" class="hero-image">
+  </section>
+
+  <!-- Link JS Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+>>>>>>> 5990a0a45b6005ee4ef8a29909ce3d50d8f3b7ae
