@@ -1,12 +1,12 @@
 let input = Number(prompt('moi nhap so'));
-if(input == 1 || input == 3 || input == 5 || input == 7 || input == 8 || input == 10 || input == 12){
-    console.log(`tháng ${input} tháng có 31 ngày `);
+if(input == 1,3,5,7,8,10,12){
+    console.log('thang co 31 ngay');
 }
-else if(input == 4 || input == 6 || input == 9 || input == 11){
-    console.log( `tháng ${input} tháng có 30 ngày `);
+else if(input == 4,6,9,11){
+    console.log( `${input}thang co 30 ngay`);
 }else if(input == 2){
-    console.log('tháng 2 là tháng có 28 hoặc 29 ngày');
+    console.log('thang co 28 hoac 29 ngay');
 }
 else{
-    console.log('không phải tháng trong năm ');
+    console.log('khong phai thang trong nam');
 }
