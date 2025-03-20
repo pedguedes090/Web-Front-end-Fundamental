@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #888;
+
+        }
+
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+        }
+
+        .layer2 {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+
+
+        }
+
+        .container2 {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        .btn-close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 20px;
+            background-color: transparent;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">
+            <h1>Model Example</h1>
+            <button class="btn-open">Open modal</button>
+        </div>
+    </div>
+    <div class="layer2">
+        <div class="container2">
+            <button class="btn-close">X</button>
+            <p>Some text in the modal</p>
+        </div>
+
+    </div>
+
+    <script src="./baitap4.js"></script>
+</body>
+
+</html>
