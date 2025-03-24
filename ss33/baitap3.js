@@ -20,21 +20,21 @@ for (let i = 0; i < dish.length; i++) {
         categories.push(dish[i].category);
     }
 }
-for(let i =0 ; i<categories.length;i++){
+for (let i = 0; i < categories.length; i++) {
     let option = document.createElement('option');
     option.textContent = categories[i];
     list[0].appendChild(option);
 }
-function render(){
+function render() {
     myul[0].innerHTML = '';
     for (let i = 0; i < dish.length; i++) {
-        if(list[0].value == dish[i].category){
+        if (list[0].value == dish[i].category) {
             let li = document.createElement('li');
             li.textContent = `tên đồ ăn ${dish[i].name} danh mục ${dish[i].category}`;
             myul[0].appendChild(li);
         }
     }
 }
-list[0].onchange = function(){
+list[0].onchange = function () {
     render();
 }

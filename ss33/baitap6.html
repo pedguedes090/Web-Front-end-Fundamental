@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+
+        #search {
+            padding: 5px;
+            width: 300px;
+            font-size: 16px;
+        }
+
+        #searchBtn {
+            color: white;
+            background-color: blue;
+            padding: 5px 10px;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        .content {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        #name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #information {
+            font-size: 30px;
+        }
+        td {
+            padding: 10px;
+            margin: 20px;
+        }
+        .icon {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ứng dụng thời tiết</h1>
+    <div class="nav">
+        <input type="text" id="search" placeholder="Nhập tên thành phố">
+        <button id="searchBtn">Tìm kiếm</button>
+    </div>
+    <div class="content">
+        <div id="name"></div>
+        <div id="information">
+        </div>
+    </div>
+    <script src="./baitap6.js"></script>
+</body>
+
+</html>
