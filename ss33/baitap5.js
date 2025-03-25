@@ -35,6 +35,5 @@ search.onclick = function () {
             filteredProducts.push(product);
         }
     }
-
     renderProducts(filteredProducts);
 };

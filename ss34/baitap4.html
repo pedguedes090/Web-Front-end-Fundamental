@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .del {
+            color: white;
+            background-color: red;
+            border: none;
+            border-radius: 5px;
+            width: 50px;
+            height: 25px;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 24px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            width: 300px;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 0 auto;
+            background-color: #f9f9f9;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid black;
+        }
+        .search{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            flex-direction: column;
+        }
+        input{
+            width: 80%;
+            margin-bottom: 10px;
+        }
+        #btn{
+            color: white;
+            background-color: green;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            display: flex;
+            margin-right: 180px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+     <form action=""onsubmit="addTask(event)">
+        <h1>To do List</h1>
+        <div class="search">
+            <input type="text" id="task" placeholder="Thêm việc cần làm">
+        <button id="btn">Thêm</button>
+        </div>
+        
+    </form>
+    <div class="list">
+        <ul id="taskList">
+        </ul>
+
+</div>
+   
+    <script src="./baitap4.js"></script>
+</body>
+</html>

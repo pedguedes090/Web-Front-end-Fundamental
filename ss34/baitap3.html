@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+          
+            border: 1px solid black;
+            width: 400px;
+            border-radius: 4px;
+            align-items: center;
+            justify-content: center;
+        }
+        p{
+            color: gray;
+            margin: 0;
+            display: flex;
+            width: 80%;
+        }
+        input{
+            width: 80%;
+            margin-bottom: 10px;
+        }
+        button{
+            width: 80%;
+            color: white;
+            margin-bottom: 30px;
+            background-color: blue;
+        }
+        .footer{
+            display: flex;
+            justify-content: space-between;
+            width:80%;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="a">
+    <div class="center-container">
+       <h1>Login</h1>
+       <form action="" onsubmit="submitForm(event)">
+        <p>Email:</p>
+    <input type="email"  id="email">
+    <p>Password:</p>
+    <input type="password" id="password">
+    <br>
+    <button id="btn">Sign in</button>
+  
+       </form>
+    
+    
+    <div class="footer">
+        <a href="#">forgotpassword?</a>
+        <div>or</div>
+        <a href="#">SignUp</a>
+    </div>
+</div>
+</div>
+    <script src="./baitap3.js"></script>
+   
+    
+</body>
+</html>
