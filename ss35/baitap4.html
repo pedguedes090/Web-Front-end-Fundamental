@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+        }        
+        .form-add {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: #000 1px solid;
+        }
+        input {
+            width: 183px;
+            height: 25px;
+            margin: 10px;
+        }
+        .div-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .number {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+        }
+        .previous, .next {
+            margin: 5px;
+            padding: 5px;
+            border: #000 1px solid;
+            cursor: pointer;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Danh sách nhân viên rikkei </h1>
+    <div class="form-add">
+        <p>
+            tên nhân viên
+        </p>
+        <input type="text" id="name">
+        <p>
+            chức vụ
+        </p>
+        <input type="text" id="position">
+        
+    </div>
+    <div class="div-btn">
+        <button class="btn">thêm nhân viên </button>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <th>STT</th>
+                <th>tên</th>
+                <th>chức vụ</th>
+            </thead>
+            <tbody class="body-table">
+
+            </tbody>
+        </table>
+        <div class="footer">
+            <div class="previous">previous</div>
+            <div class="number">
+                <div>1</div>
+            </div >
+            <div class="next">next</div>
+        </div>
+    </div>
+    <script src="./baitap4.js"></script>
+</body>
+</html>

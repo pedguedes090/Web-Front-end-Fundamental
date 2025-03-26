@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 400px;
+            margin: auto;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background: #f4f4f4;
+            padding: 10px;
+            margin: 5px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        button {
+            margin-left: 5px;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>To-Do List K24</h2>
+    <input type="text" id="taskInput" placeholder="Nhập công việc">
+    <button onclick="addTask()">Thêm</button>
+
+    <ul id="taskList">
+        <li>
+            <span>he</span>
+            <div>
+                <button onclick="editTask(0)">Sửa</button>
+                <button onclick="deleteTask(0)">Xóa</button>
+            </div>
+        </li>
+    </ul>
+    <div class="pagination">
+        <span class="previous" style="border: solid 1px #000; margin: 5px;">previous</span>
+        <span class="pageNumber">
+
+        </span>
+        <span class="next" style="border: solid 1px #000;margin: 5px;">next</span>
+    </div>
+    <script src="./baitap1.js"></script>
+</body>
+
+</html>
